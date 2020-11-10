@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.MSViewer.resources
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.Properties.Resources.resources
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Task_DelLine\bin\Debug\Task_DelLine.exe.config
+C:\Users\Admin\source\repos\Task_DelLine\bin\Debug\Task_DelLine.exe
+C:\Users\Admin\source\repos\Task_DelLine\bin\Debug\Task_DelLine.pdb
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.exe
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.pdb
+C:\Users\Admin\source\repos\Task_DelLine\bin\Debug\NLog.dll
+C:\Users\Admin\source\repos\Task_DelLine\bin\Debug\NLog.xml
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.csproj.CopyComplete
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.Forms.FilterProperties.resources
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.Forms.AddItem.resources
+C:\Users\Admin\source\repos\Task_DelLine\bin\Debug\NLog.config
+C:\Users\Admin\source\repos\Task_DelLine\obj\Debug\Task_DelLine.csprojAssemblyReference.cache
