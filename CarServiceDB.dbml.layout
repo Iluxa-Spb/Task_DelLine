@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 12.75" name="CarServiceDB">
+  <DataContextMoniker Name="/CarServiceDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="107c5ecf-45b3-4a3a-b2da-b260f69f56a2" absoluteBounds="3.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CarServiceDBDataContext/Car" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9c9d56e-75c2-406c-90ff-daaadc8033d3" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c3f82bcd-f2b1-45f9-b25d-f8ca74814820" absoluteBounds="0.75, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CarServiceDBDataContext/Client" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d1ab69d-896e-48a6-a436-27ff405a39f7" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9810eb3d-39c0-416c-a119-3184a4a89d76" absoluteBounds="3.5, 5.125, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/CarServiceDBDataContext/Repairman" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4da84d31-2ec3-4789-8f89-64c19146d3f1" absoluteBounds="3.515, 5.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7681bfa2-72c1-4c43-890c-aa10acab26f9" absoluteBounds="6.25, 1, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CarServiceDBDataContext/TaskForCar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="08509506-bb45-4bd5-851b-251ff629d8d3" absoluteBounds="6.265, 1.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e9816dc-0127-4146-a2aa-d88fefbc059d" absoluteBounds="6.75, 4.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/CarServiceDBDataContext/WorkGenerator" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a653b3ac-fa8f-4b11-a443-7428e928c475" absoluteBounds="6.765, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.17390055338542); (3.5 : 2.17390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CarServiceDBDataContext/Client/Client_Car" />
+      <nodes>
+        <classShapeMoniker Id="c3f82bcd-f2b1-45f9-b25d-f8ca74814820" />
+        <classShapeMoniker Id="107c5ecf-45b3-4a3a-b2da-b260f69f56a2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.07774983723958); (6.25 : 2.07774983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CarServiceDBDataContext/Car/Car_TaskForCar" />
+      <nodes>
+        <classShapeMoniker Id="107c5ecf-45b3-4a3a-b2da-b260f69f56a2" />
+        <classShapeMoniker Id="7681bfa2-72c1-4c43-890c-aa10acab26f9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.64349609375); (6.46875 : 6.64349609375); (6.46875 : 3.15549967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CarServiceDBDataContext/Repairman/Repairman_TaskForCar" />
+      <nodes>
+        <classShapeMoniker Id="9810eb3d-39c0-416c-a119-3184a4a89d76" />
+        <classShapeMoniker Id="7681bfa2-72c1-4c43-890c-aa10acab26f9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8ae5344d-59d0-4fb6-9410-fd942a010bce" absoluteBounds="6.75, 7.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/CarServiceDBDataContext/CarView" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7bf2730-aeab-434e-8c2d-8387421a3b31" absoluteBounds="6.765, 8.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68703dd9-19a4-4600-bcf2-c4f209028de9" absoluteBounds="0.75, 8.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/CarServiceDBDataContext/ClientView" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06f9f992-30df-4809-8471-9e83073ba80b" absoluteBounds="0.765, 9.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="10839be4-9381-4969-9c90-d2bdbb744f25" absoluteBounds="9.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/CarServiceDBDataContext/DefaultView" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e82546e9-07a5-4a68-b220-b8cdf85cc5a4" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="191fefa2-ede8-4e30-9f20-714cf880fb35" absoluteBounds="9.75, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/CarServiceDBDataContext/RepairmanView" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e255a4de-a939-48b2-8c28-6044717a073a" absoluteBounds="9.765, 5.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="597ec617-ef58-4b00-a959-9baab536b90a" absoluteBounds="9.75, 7.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CarServiceDBDataContext/Task_2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32368823-bf6d-4aac-b152-710d37245667" absoluteBounds="9.765, 8.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="185443c4-7a72-478f-be52-8273ae3534ca" absoluteBounds="9.75, 10.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/CarServiceDBDataContext/Task_3" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6408e211-9727-45e3-b521-9fe4152a6b69" absoluteBounds="9.765, 11.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

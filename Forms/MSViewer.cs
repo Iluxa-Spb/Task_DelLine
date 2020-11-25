@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using Task_DelLine.BDSQLServer;
 using Task_DelLine.EventsLib;
 using Task_DelLine.Forms;
+using System.Linq;
 
 namespace Task_DelLine
 {
@@ -392,9 +393,12 @@ namespace Task_DelLine
             try
             {
                 log.Debug("Accessing the database...");
-                dataSet = await DBUtils.GetDataSetAsync("SELECT * from DefaultView"
-                                , sqlConnection, "TaskForCar");
-                bindingSource.DataSource = dataSet.Tables[0];
+                //dataSet = await DBUtils.GetDataSetAsync("SELECT TOP(500) * from DefaultView"
+                //                , sqlConnection, "TaskForCar");
+                CarServiceDBDataContext data = new CarServiceDBDataContext();
+                log.Debug("DataSet load in SQL succses");
+                //bindingSource.DataSource = dataSet.Tables[0];
+                bindingSource.DataSource = data.CarView;
                 bindingNavigator.BindingSource = bindingSource;
                 dataGridView.DataSource = bindingSource;
                 dataGridView.Columns[0].Visible = false;
